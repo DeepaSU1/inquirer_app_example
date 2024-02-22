@@ -101,6 +101,7 @@
 //eg 9 we need to cycle the app - when finish creating 1 file, the app ask for do you want to create another file - if yes it continues - if no it stops
 const prompts = require('./lib/promptUser');
 
+//1.we start with index.js - it calls cyclePrompt method
 prompts.cyclePrompt();
 
 
